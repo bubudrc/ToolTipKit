@@ -1,4 +1,4 @@
-// swift-tools-version: 5.8
+// swift-tools-version: 5.4
 import PackageDescription
 
 let package = Package(
@@ -6,7 +6,7 @@ let package = Package(
     platforms: [.iOS(.v11)],
     products: [
         .library(
-            name: "ToolTipKit",
+            name: "ToolTipKit-Forked",
             targets: ["ToolTipKit"]
         )
     ],
